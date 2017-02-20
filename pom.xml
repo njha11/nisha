@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>3e7473c0abd1-releases</name>
+        <url>http://10.5.2.143:8081/artifactory/myMavenRepo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>3e7473c0abd1-snapshots</name>
+        <url>http://10.5.2.143:8081/artifactory/myMavenRepo</url>
+    </snapshotRepository>
+</distributionManagement>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.khoubyari</groupId>
